@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="40dp"
+        android:layout_height="27dp"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="32dp"
+        android:layout_height="34dp"
+        app:srcCompat="@drawable/ic_search"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="38dp"
+        android:layout_height="84dp"
+        app:srcCompat="@drawable/ic_baseline_more_vert_24"
+        tools:layout_editor_absoluteX="367dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="142dp"
+        android:layout_height="128dp"
+       android:background="@drawable/bg_form_pencarian"
+        app:srcCompat="@drawable/game_free_fire_sepi_terbaru"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Free Fire Battle in style"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berisi iklan.Pembelian dalam apl"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="53dp"
+        android:layout_height="32dp"
+        android:text="3,3"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="160 rb ulasan"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="38dp"
+        android:layout_height="42dp"
+        app:srcCompat="@android:drawable/star_off"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="38dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/ic_baseline_arrow_circle_down_24"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="309dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100 Mb"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="44dp"
+        android:layout_height="42dp"
+        app:srcCompat="@drawable/ic_baseline_looks_3_24"
+        tools:layout_editor_absoluteX="328dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ranting 3"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="328dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INSTALL"
+        android:backgroundTint="@color/teal_200"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="478dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
